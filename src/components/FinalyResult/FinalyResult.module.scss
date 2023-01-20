@@ -1,0 +1,64 @@
+.lonely {
+	padding: 10px;
+	border-radius: 1px;
+	background-color: white;
+	border-top: 1px solid #eee;
+  .likedPeople {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    .descriptionLikedYou {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }
+
+/* Stolen CSS */
+.pulse {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #fec9cb;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border: 3px solid #F5C9CA;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .myAvatar {
+      width: 85%;
+      border-radius: 100px;
+      border: 5px solid white;
+    }
+  }
+
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+          -webkit-box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+    }
+    100% {
+          -webkit-box-shadow: 0 0 0 35px rgba(241, 201, 202, 0);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+      box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+    }
+    100% {
+          -moz-box-shadow: 0 0 35px 35px rgba(241, 201, 202, 0);
+          box-shadow: 0 0 35px 35px rgba(241, 201, 202, 0);
+    }
+  }
+}

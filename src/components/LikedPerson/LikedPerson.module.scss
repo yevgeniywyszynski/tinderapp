@@ -1,0 +1,13 @@
+.likedPerson {
+    display: inline-block;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.likedPersonsImg {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+}

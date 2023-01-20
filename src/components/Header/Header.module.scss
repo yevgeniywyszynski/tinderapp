@@ -1,0 +1,30 @@
+header {
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 5px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+    .fl {
+        float: left;
+        width: 33%;
+        .btnSettings {
+            background-color: transparent;
+            border: 0;
+            width: 50px;
+            cursor: pointer;
+            .userIcons {
+                width: 100%;
+            }
+        }
+    }
+}
+
+header .fl:first-child {
+	text-align: left;
+}
+
+header .fl:last-child {
+	text-align: right;
+}
