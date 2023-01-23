@@ -11,7 +11,7 @@ const FinalyResult = ({ activeUserImage, likedUsers, superLikedUsers }) => {
           <img className={styles.myAvatar} src={`/images/users/${activeUserImage}`} alt="You..." />
         </span>
     
-        <div class={styles.likedPeople}>
+        <div className={styles.likedPeople}>
           <p className={styles.descriptionLikedYou}>
             {likedUsers.length > 0
               ? "People you liked...let's hope they like you too!"

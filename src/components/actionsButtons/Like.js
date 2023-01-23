@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Like = ({userId, modifySuperficialChoices}) => (
+const Like = ({ moveToLiked }) => (
     <button
         type="button"
-        onClick={() => modifySuperficialChoices(userId, "ADD_TO_LIKED_USERS")}
+        onClick={moveToLiked}
         >
             <img src="images/misc/like.png" alt="Like User" />
     </button>

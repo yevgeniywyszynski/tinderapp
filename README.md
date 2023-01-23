@@ -5,5 +5,7 @@
 
 <h3 align="left">Application view :desktop_computer:</h3>
 
-<img src='/public/images/appScreen/appscreen2.jpg'/>
-<img src='/public/images/appScreen/appscreen1.jpg'/>
+<div style="text-align: center;">
+    <img style="width: 600px;" src='/public/images/appScreen/appscreen2.jpg'/>
+    <img style="width: 600px;" src='/public/images/appScreen/appscreen1.jpg'/>
+</div>
