@@ -61,9 +61,3 @@ export default function reducer(statePart = [], action = {}) {
             return statePart
         }
 }
-
-/*
-1. ZROZUMIEC
-2. Zrobic tak, zeby dzialalo rowniez dla innych osob jako isActive
-3. Obsługa pozostałych przyciskówz
-*/
