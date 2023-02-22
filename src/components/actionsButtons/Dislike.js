@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
+import { useDispatch } from "react-redux";
+import { addToDislikedUsers } from "../../redux/usersSlice";
 
-const Dislike = ({ moveToDisliked }) => {
-    
-    return(
-        <button
-            type="button"
-            onClick={moveToDisliked}
-            >
-                <img src="images/misc/dislike.png" alt="Dislike User" />
-        </button>
-    )
-}
+const Dislike = () => {
+  const dispatch = useDispatch();
+  return (
+    <button type="button" onClick={() => dispatch(addToDislikedUsers())}>
+      <img src="images/misc/dislike.png" alt="Dislike User" />
+    </button>
+  );
+};
 
 export default Dislike;

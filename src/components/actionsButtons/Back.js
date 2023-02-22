@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Back = () => (
-    <button type="button">
-        <img src={'images/misc/rewind.png'} alt="Rewind User" />
-    </button>
-)
+  <button type="button">
+    <img src={"images/misc/rewind.png"} alt="Rewind User" />
+  </button>
+);
 
 export default Back;
